@@ -1,0 +1,11 @@
+[package]
+
+name = "rnav"
+version = "0.0.1"
+authors = ["Nick Stevens <nick@bitcurry.com>"]
+
+[dependencies]
+rustc-serialize = "*"
+
+[dependencies.docopt]
+git = "https://github.com/docopt/docopt.rs"
